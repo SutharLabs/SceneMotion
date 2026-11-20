@@ -1,0 +1,9 @@
+# Scene Motion local preview
+
+This package provides one workflow skill, a bundled stdio MCP server, fixed recipe-preview renderer, original starter recipe data and a detached job worker. Pack comparison and editable recipe drafts work without MotionGraphics. Source-backed planning and the tile-explainer adapter use a separately configured MotionGraphics workspace and explicitly installed local tools. Narrated scripts follow the live Humanizer pass and final-wording fact check, recorded in docs/script-review.md. Shorts use a payoff/loop ending; long form keeps its channel outro. Script/shotlist and actual-audio reviews require operator approval of the current digest through the CLI/editor; MCP cannot approve. The package contains product code, private declarative starter data and dependency notices; source creative kits, media, personal channel assets, render-node addresses and model weights stay outside it.
+
+Requires Node 22 or later. Configure `SCENE_MOTION_WORKSPACE` and `SCENE_MOTION_PROJECTS` in the MCP environment, or set `SCENE_MOTION_CONFIG` to your local version 1 config JSON. Output must be outside the source workspace. Source cards, workflows and brief/shotlist templates are read in place; none of them are redistributed by this preview.
+
+Portable hosts use root `plugin.json` and `mcp.json`. Claude uses `.claude-plugin/plugin.json` and `.mcp.json`. A separately generated Cursor package changes only its plugin-root variable. Host loading remains to be smoke-tested; protocol tests alone do not prove a host installed the package.
+
+This is a local development artifact named **Scene Motion**, as selected by the user. The public source licence, publisher identity, content clearances and public submission remain pending. Bundled dependency notices are in `THIRD_PARTY_NOTICES.txt`.

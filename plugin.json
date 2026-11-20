@@ -1,0 +1,21 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "scene-motion",
+  "version": "0.1.0",
+  "description": "Explore a local motion library and compile reviewable video production plans. Development preview; requires a separate content workspace.",
+  "license": "UNLICENSED",
+  "keywords": [
+    "video",
+    "animation",
+    "local",
+    "planning"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Scene Motion",
+        "shortDescription": "Plan videos from local styles"
+      }
+    }
+  }
+}

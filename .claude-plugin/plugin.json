@@ -1,0 +1,6 @@
+{
+  "name": "scene-motion",
+  "displayName": "Scene Motion",
+  "version": "0.1.0",
+  "description": "Explore a local motion library and compile reviewable video production plans. Development preview; requires a separate content workspace."
+}

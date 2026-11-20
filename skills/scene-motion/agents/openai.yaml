@@ -1,0 +1,4 @@
+interface:
+  display_name: "Scene Motion"
+  short_description: "Find video styles and compile production plans"
+  default_prompt: "Use $scene-motion to plan a video from my local style library."
